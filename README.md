@@ -23,7 +23,7 @@ Este repositorio contiene la especificación, los planos y la guía de implement
 Para llegar a la robustez transaccional actual de MariaDB, este framework recorrió un viaje evolutivo empírico impulsado por dolores operacionales reales al trabajar con agentes de IA de pair programming (como *Antigravity* y *OpenClaw*):
 
 | Fase | Infraestructura | Almacenamiento | Enfoque Cognitivo | Limitación / Dolor |
-|------|-----------------|----------------|-------------------|----------------────|
+| :--- | :--- | :--- | :--- | :--- |
 | **Fase A** | Multi-Dispositivo (PC / Laptop) | Google Drive + JSON | Descentralizado con Firmas (`whoami`) | Latencia de Drive y colisiones JSON |
 | **Fase B** | Multi-Dispositivo | Markdown Superdenso (LLM-Wiki) | Inyección Machine-to-Machine (M2M) | Latencia de lectura y parseo de disco |
 | **Fase C** *(El Desmadre)* | Servidor MCP 4D | MariaDB (Transaccional SCD) | Quórum 4D Expandido + Fast-Path | Ninguna (Operación en producción) |
