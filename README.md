@@ -44,13 +44,8 @@ Para llegar a la robustez transaccional actual de MariaDB, este framework recorr
 
 ## 📁 Estructura del Repositorio
 ```
-├── docs/
-│   ├── architecture_design.md   # Paper formal de la arquitectura (arXiv / ACM style)
-│   └── mop_itil4.md             # Method of Procedure operativo bajo ITIL 4
-└── proyecto/
-    ├── README.md                # Este archivo de bienvenida
-    ├── HOWTO.md                 # Guía técnica e histórica de implementación (Fases A, B y C)
-    └── src/                     # Código demostrativo e inicializadores
+├── README.md                # Este archivo de bienvenida y descripción general
+└── HOWTO.md                 # Guía técnica e histórica con los scripts Python integrados
 ```
 
 ---
